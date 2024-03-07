@@ -56,4 +56,85 @@ a {
 .right {
   display: flex;
   flex-direction: column;
+  background-color: hsl(0, 0%, 95%);
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top,
+.bottom {
+  margin-left: 3em;
+  margin-right: 2em;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 8em;
+  margin-bottom: 2em;
+}
+
+.form {
+  background-color: white;
+  padding: 1em 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 1.5em;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.form p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  gap: 4em;
+}
+
+.form-left,
+.form-right {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 1.5em;
+  border: 1px solid;
+  padding: 0.5em;
+  width: 20em;
+  border-radius: 0.25em;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: blue;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button {
+  background-color: #596d48;
+  padding: 0.75em;
+  color: white;
+  width: 13em;
+  outline: none !important;
+  margin-left: 3em;
+  border-radius: 0.5em;
+  font-weight: bold;
+  font-size: 1em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-bottom: 2em;
+}
+
+.bottom a {
+  color: #596d48;
+  font-weight: bold;
+  text-decoration: none;
 }
